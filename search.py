@@ -39,4 +39,4 @@ while restart == 'now':
     else:
         print "Something went wrong, try again using one of these:"
         print "cape town, durban, joburg, pretoria"
-        answer = raw_input("> ")
+        print "-------------------------------------------------"
