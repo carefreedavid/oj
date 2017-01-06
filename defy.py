@@ -67,3 +67,14 @@ Which area in %s would you like to search?
         for row in reader:
             keep = row[subburb]
             print keep
+
+def circle():
+    print "---"
+    print "Do you want to search anything else? (yes or no)"
+    answer = raw_input("> ")
+    if answer == 'yes':
+        restart = 'now'
+    else:
+        print "thank you, come again"
+        restart = ''
+        return restart
