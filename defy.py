@@ -7,6 +7,8 @@ ct_sub = 'ct_sub.csv'
 dbn_file = 'dbn.csv'
 dbn_sub = 'dbn_sub.csv'
 jhb_file = 'jhb.csv'
+pta_file = 'pta.csv'
+pta_sub = 'pta_sub.csv'
 
 def index(area):
 
@@ -19,6 +21,9 @@ def index(area):
     elif area == 'joburg':
         filey = jhb_file
         sub = ct_sub
+    elif area == 'pretoria':
+        filey = pta_file
+        sub = pta_sub
 
     print """
 -------------------------------------------
