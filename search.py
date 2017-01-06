@@ -10,9 +10,9 @@ print "Which city are you wanting to search?"
 answer = raw_input("> ")
 
 # loop while answer does not match results
-while answer != 'pretoria' and answer != 'joburg':
-    print "hmmm, don't have that. Maybe try ct or joburg?"
-    answer = raw_input("> ")
+# while answer != 'pretoria' and answer != 'joburg':
+    # print "hmmm, don't have that. Maybe try ct or joburg?"
+    # answer = raw_input("> ")
 
 # reads jhb csv
 if answer == 'joburg':

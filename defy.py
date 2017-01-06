@@ -50,11 +50,14 @@ suggested subburb searches
                     keep = row['sub']
                     print keep
 
-            print "Which area in %s would you like to search?" % area
+            print """
+---------------------------------------------
+Which area in %s would you like to search?
+---------------------------------------------""" % area
             subburb = raw_input("> ")
 
     print "-------------------------------------------"
-    print "Here are the results for the %s" % subburb
+    print "Here are the results for the %s of %s" % (subburb, area)
     print "-------------------------------------------"
 
     keep_list = []
@@ -64,5 +67,3 @@ suggested subburb searches
         for row in reader:
             keep = row[subburb]
             print keep
-
-# print result
