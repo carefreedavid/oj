@@ -12,10 +12,10 @@ pta_sub = 'pta_sub.csv'
 
 def index(area):
 
-    if area == 'ct':
+    if area == 'cape town':
         filey = ct_file
         sub = ct_sub
-    elif area == 'dbn':
+    elif area == 'durban':
         filey = dbn_file
         sub = dbn_sub
     elif area == 'joburg':
@@ -56,9 +56,9 @@ Which area in %s would you like to search?
 ---------------------------------------------""" % area
             subburb = raw_input("> ")
 
-    print "-------------------------------------------"
+    print "-----------------------------------------------"
     print "Here are the results for the %s of %s" % (subburb, area)
-    print "-------------------------------------------"
+    print "-----------------------------------------------"
 
     keep_list = []
     # turns reader into a dic
